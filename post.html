@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>post method</title>
+<style>
+    body{
+     background-color: #f9dbe9;
+    }
+    
+    .img1{
+     filter: blur(3px);
+     width: 950px;
+    }
+    .img2
+    {
+     width: 500px;
+     position: absolute;
+     top: 50%;
+     left: 22%;
+     transform: translate(-50%, -50%);
+    }
+    .pg1 h2{
+     padding-left: 60%;
+     margin-top: -850px;
+    }
+    .img3 h4{
+     position: absolute;
+     top: 5%;
+     left: 5%;
+     transform: translate(-50%, -50%);
+    }
+    .btn2{
+     position: absolute;
+     right: 2%;
+     margin-top: -70px;
+     }
+    .btn3{
+     border-radius: 20px;
+     width: 150px;
+     height: 40px;
+     border: none;
+     background-color: #f9dbe9;
+    }
+    .pg2 p{
+     position: absolute;
+     margin-top: 50px;
+     margin-left: 1150px;
+    }
+    .btn4 {
+     position: absolute;
+     right: 11%;
+     width: 500px;
+     height: 20px;
+     border-radius: 20px;
+     margin-top: 150px;
+     
+    }
+    .btn6:hover 
+       {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+       }
+    .btn3:hover{
+     background-color: #e787b4;
+    }
+ </style>
+</head>
+<body>
+ <div class="main">
+     
+     <div class="div2">
+         <img src="https://tse3.mm.bing.net/th?id=OIP.aKL4uEbZq-7klVJFFYcATAHaHa&pid=Api&P=0&h=180" class="img1">
+         <div class="div2">
+             <img src="https://kpopping.com/documents/1b/2/800/D-DHvJiU8AAbvl6.jpeg" class="img2" style="border-radius: 30px;">
+         </div>
+         <div class="img3">
+             <h4>LISA||RAPPER</h4>
+         </div>
+     </div>
+     <div class="pg1">
+        <div class="btn2">
+            <button class="btn3"><h3>Contact</h3></button>
+        </div>
+        <h2 style="font-size: 75px;">Hi, Lalisa Manoban's Fan Club.</h2>
+        
+    </div>
+    <div class="pg2">
+        <div class="btn4">
+            <form action="http://localhost:8000/login" method="post">
+            <h1>Name : </h1><input type="text" name="username" style="width: 200px;height: 50px;border-radius: 20px;"  value=""/><br/><br>
+            <h1>Email : </h1><input type="text" name="email" style="width: 200px;height: 50px;border-radius: 20px;"  value=""/><br/><br>
+            <center><input type="submit" class="btn6" name="login" style="background-color: black;color: white; width: 100px;height: 30px;border-radius: 20px;" value="Login"/></center>
+            </form>
+        </div>
+       
+
+    </div>
+
+ </div>
+</body>
+</html>
